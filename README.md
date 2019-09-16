@@ -1,8 +1,8 @@
 # GPT-2 guided text generation: making arguments and generating memes
 
-[OpenAI](https://openai.com)'s [GPT-2 text generation model](https://openai.com/blog/better-language-models/) (specifically the "large" 774M hyperparameter) is amazingly powerful. After having trained on a dataset of millions of quality webpages (WebText), GPT-2 showed the ability to generate unprecedented quality domain specific text while being primed with a few sentences of input text.
+[OpenAI](https://openai.com)'s [GPT-2 text generation model](https://openai.com/blog/better-language-models/) (specifically the "large" 774M hyperparameters) is amazingly powerful. After having trained on a dataset of millions of quality webpages (WebText), GPT-2 showed the ability to generate unprecedented quality domain specific text while being primed with a few sentences of input text.
 
-There are still a few weaknesses that are simple to notice. The model's output tends to diverge as the generation progresses from the human-written input, losing consistency or off-topic. It is also not quite evident how to instruct GPT-2 to stay on topic, e.g. to achieve some conclusion with the text generated.
+There are still a few weaknesses that are simple to notice. The model's output tends to diverge as the generation progresses from the human-written input, losing consistency or going off-topic. It is also not quite evident how to instruct GPT-2 to stay on topic, e.g. to achieve some conclusion with the text generated.
 
 Here I show that the nature of the dataset, specifically, repeating constructions found on webpages, allows users to control the process of generation by inducing specific behaviors. The results may vary; however, the nature of results produced demonstrates how much behavior, structure, and logic transformers can extract from their training datasets <sup>[1](#fn1)</sup>.
 
