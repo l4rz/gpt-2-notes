@@ -309,8 +309,6 @@ Output:
 
 ## Notes <a name="notes"></a>
 
-This repository has no association or relationship with OpenAI.
-
 <a name="fn1">1</a>: The results shown were produced using publicly released 774M model, no finetuning was involved.
 
 <a name="fn2">2</a>:The paper suggests using Top-k random sampling with top_k=2, i.e. to consider top 2 logits while producing the output. It's a good setting for summarizing task, since it produces deterministic results (there is little of randomness in the sampling process, it always chooses top 2 logits with the highest probability). For purposes demonstrated higher top_k value is more suitable. To avoid lengthy sentences, all samples provided in this document were generated with temperature=1, top_k=16 and output length=256 tokens, unless stated otherwise.
@@ -318,3 +316,5 @@ This repository has no association or relationship with OpenAI.
 ## Written by
 
 l4rz
+
+This repository has no association or relationship with OpenAI.
